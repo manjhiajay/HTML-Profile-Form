@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Create User Profile</title>
+</head>
+<body bgcolor="FFFFE0">
+    <form action="">
+        <center>
+            <table border="1" px>
+                <tr>
+                    <td colspan="3" align="center">Create User Profile</td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="3">
+                        <img src="images/profile.png" alt="profilepic" width="auto" height="100" />
+                        <input type="file" name="profilepic" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text" name="name" value="" placeholder="ex.Raj Kumar Singh"</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="male" />Male
+                    <input type="radio" name="gender" value="female" />Female</td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth</td>
+                    <td><input type="date" name="dob" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Email Id</td>
+                    <td><input type="email" name="email" value="" placeholder=" xyz@gmail.com" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" value="" placeholder="minimum 8 Characters" minlength="8"</td>
+                </tr>
+                <tr>
+                    <td>Phone No</td>
+                    <td size="2px" hidden>
+                        <select name="country">
+                            <option>India</option>
+                            <option>China</option>
+                            <option>USA</option>
+                            <option>other</option>
+                        </select>
+                    </td>
+                    <td><input type="number" name="mobileno" value="" placeholder="987654321" size="2px" /></td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td><input type="url" name="website" value="" placeholder="https://www.example.com" /></td>
+                </tr>
+                <tr>
+                    <td>Linked Profile URL</td>
+                    <td><input type="url" name="linkedinurl" value="" placeholder="http://linkedin.com/countrycode/username"</td>
+                </tr>
+                <tr>
+                    <td>GitHub URL</td>
+                    <td><input type="url" name="githuburl" value="" placeholder="https://github.com/username"</td>
+                </tr>
+                <tr>
+                    <td>About Me</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>
+                        <select multiple>
+                            <option>Cricket</option>
+                            <option>Basket Ball</option>
+                            <option>VolleyBall</option>
+                            <option>Badminton</option>
+                            <option>Hockey</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>OTP</td>
+                    <td><input type="number" placeholder="please enter otp send on oyur mobile" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button>Create My Profile</button>
+                        <input type="Reset" />
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
